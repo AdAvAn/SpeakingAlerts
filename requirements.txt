@@ -1,0 +1,9 @@
+# List of necessary for the operation of the library service
+# To install all necessary dependencies, use the command:
+# pip install -r requirements.txt --break-system-packages
+
+gTTS
+pygame
+pygobject
+alerts_in_ua
+configparser

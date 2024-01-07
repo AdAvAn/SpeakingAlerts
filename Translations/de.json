@@ -1,0 +1,29 @@
+{
+    "number_of_locations_with_alert": "Anzahl der Regionen mit angekündigter Warnung",
+    "attention": "Aufmerksamkeit",
+    "declared": "Angekündigt",
+    "canceled": "Abgesagt",
+
+    "added_single": "Hinzugefügt",
+    "added_plural": "Hinzugefügt",
+    "alert_in": "Warnung in",
+    "alerts_in": "Warnungen in",
+
+    "location": "Region",
+    "locations": "Regionen",
+
+    "seek_shelter": "Suchen Sie Schutz im nächsten",
+    "increased_to": "erhöht auf",
+    "decreased_to": "gesunken auf",
+    
+    "no_change": "Keine Veränderung",
+    "alerts_announced_in": "Aktuell gibt es Warnungen in",
+    "clear_sky": "Aktuell, wolkenloser Himmel!",
+
+    "in": "in der",
+    "air_raid": "Luftangriff",
+    "artillery_shelling": "Artilleriebeschuss",
+    "urban_fights": "Stadtgefechte",
+    "chemical": "Chemische Gefahr",
+    "nuclear": "Nukleare Gefahr"
+}

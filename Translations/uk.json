@@ -1,0 +1,29 @@
+{
+    "number_of_locations_with_alert": "Кількість областей з оголошеною тривогою",
+    "attention": "Увага",
+    "declared": "Оголошено",
+    "canceled": "Скасовано",
+
+    "added_single": "Додалася",
+    "added_plural": "Додалися",
+    "alert_in": "тривогу в",
+    "alerts_in": "тривоги в",
+
+    "location": "області",
+    "locations": "областях",
+
+    "seek_shelter": "Пройдіть в найближче укриття",
+    "increased_to": "збільшилася до",
+    "decreased_to": "зменшилась до",
+    
+    "no_change": "Стан не змінився",
+    "alerts_announced_in": "Наразі, тривогу оголошено в",
+    "clear_sky": "Наразі, чисте небо!",
+
+    "in": "в",
+    "air_raid": "Повітряна тривога",
+    "artillery_shelling": "Артобстріл",
+    "urban_fights": "Вуличні бої",
+    "chemical": "Xімічна небезпека",
+    "nuclear": "Радіаційна небезпека"
+}

@@ -1,0 +1,29 @@
+{
+    "number_of_locations_with_alert": "Number of regions with declared alert",
+    "attention": "Attention",
+    "declared": "Declared",
+    "canceled": "Canceled",
+
+    "added_single": "Added",
+    "added_plural": "Added",
+    "alert_in": "alert in",
+    "alerts_in": "alerts in",
+
+    "location": "area",
+    "locations": "arears",
+
+    "seek_shelter": "Seek shelter in the nearest",
+    "increased_to": "increased to",
+    "decreased_to": "decreased to",
+    
+    "no_change": "No change",
+    "alerts_announced_in": "Currently, alerts announced in",
+    "clear_sky": "Currently, clear sky!",
+
+    "in": "in",
+    "air_raid": "Air Raid",
+    "artillery_shelling": "Artillery Shelling",
+    "urban_fights": "Urban Fights",
+    "chemical": "Chemical Hazard",
+    "nuclear": "Nuclear Hazard"
+}

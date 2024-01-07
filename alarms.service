@@ -1,0 +1,16 @@
+[Unit]
+Description=Alarms 
+After=network.target
+After=mnt-scripts.mount
+
+[Service]
+Restart=on-failure
+User=root
+Restart=always
+RestartSec=21s
+KillMode=process
+TimeoutSec=20s
+ExecStart=/usr/bin/python3 /SpeakingAlerts/alarms.py 
+
+[Install]
+WantedBy=multi-user.target
