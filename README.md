@@ -1,10 +1,10 @@
 
 # Voice Alerts for Air Raid Warnings in Ukraine 🚨
 
-I want to share with you a program designed to provide voice alerts for air raid warnings in Ukraine. 🇺🇦
+I want to share with you the Python program to provide voice alerts for air raid warnings in Ukraine. 🇺🇦
 
 ## About the Program
-Its main goal is to use voice messages to inform you about air raid warnings declared in your region. It is not only useful for visually impaired individuals but also for anyone who wants to stay informed without being distracted from their daily activities.
+The main goal is to use voice messages to inform you about air raid warnings declared in your region. It is not only useful for visually impaired individuals but also for anyone who wants to stay informed without being distracted from their daily activities.
 
 The program uses the API of the website [Alerts.in.ua](https://alerts.in.ua) to obtain real-time information.
 
@@ -33,7 +33,7 @@ sudo apt install python3 && pip install -r requirements.txt --break-system-packa
 mv example.config.ini config.ini
 ```
 
-## Configuration File Parameters  (`config.ini`).
+## Configuration File Parameters (`config.ini`).
 | Parameter                        | Data Type | Default Value                               | Description                                                                                                     |
 |----------------------------------|-----------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | STATE_HANDLER_FILE_NAME          | String    | /tmp/alerts_state-2.json                    | Path to the file storing the current state in JSON format. Requires read/write access to the directory.       |
@@ -48,15 +48,20 @@ mv example.config.ini config.ini
 | List of all locations            | String    |                                             | List of available regions; use it to fill in EXCLUDE_LOCATIONS and FAVORITE_LOCATION parameters.              |
 
 ## Running
+Launching the program is very simple. 
+With this launch, the application will work as long as the console is open. For background work you will need to use the service.
 ```bash
 /usr/bin/python3 alarms.py
 ```
+
 ## Service
+To run the program as a service, you need to follow these steps
 1. Rename example.config.ini to config.ini.
 2. Move alarms.service to /lib/systemd/system/ and execute:
 
 ```bash
 mv /SpeakingAlerts/alarms.service /lib/systemd/system/alarms.service && systemctl daemon-reload && systemctl start alarms.service
 ```
+
 ## Acknowledgments
-I want to express my gratitude to my son **Kostya** for the idea and inspiration to create this program. Now we will always be informed and ready for possible dangers! 🙌🏼
+I want to express my gratitude to my son **Constantin** for the idea and inspiration to create this program. Now we will always be informed and ready for possible dangers! 🙌🏼
